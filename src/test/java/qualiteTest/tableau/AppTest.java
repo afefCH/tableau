@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * ameni
+ * ashref
  */
 public class AppTest 
     extends TestCase
