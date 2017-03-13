@@ -11,11 +11,9 @@ public class AppTest
     extends TestCase
 {
     /**
-     * 
-     * ameniraddaoui
-     * Create the test case
+
      *
-     * @param testName name of the test case
+     * @param testNamffffe name ofd the test case
      */
     public AppTest( String testName )
     {
