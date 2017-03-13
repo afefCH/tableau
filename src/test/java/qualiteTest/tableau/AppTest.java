@@ -45,8 +45,8 @@ public class AppTest
 		int[] tab1 = {5,8, 4};
 		assertEquals(6.0, App.calculMoy(tab1));
 		
-		int[] tab2 = {5,8, 3};
-		assertEquals(5.0, App.calculMoy(tab2));
+		/*int[] tab2 = {5,8, 3};
+		assertEquals(5.0, App.calculMoy(tab2));*/
 	}
     
     public void testAfficheMin()
@@ -54,6 +54,9 @@ public class AppTest
 		//App tableau = new App();
 		int[] tab3 = {5,8,1};
 		assertEquals(2.0, App.afficheMin(tab3));
+		
+		int[] tab5 = {5,8, 20};
+		assertEquals(5, App.afficheMin(tab5));
 	}
 	
 	public void testAfficheMax()
