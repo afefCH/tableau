@@ -46,21 +46,21 @@ public class AppTest
 		assertEquals(6.0, App.calculMoy(tab1));
 		
 		int[] tab2 = {5,8, 3};
-		assertEquals(0, App.calculMoy(tab2));
+		assertEquals(5.0, App.calculMoy(tab2));
 	}
     
     public void testAfficheMin()
 	{
 		//App tableau = new App();
 		int[] tab3 = {5,8,1};
-		assertEquals(2.0, App.afficheMin(tab3));
+		assertEquals(1.0, App.afficheMin(tab3));
 	}
 	
 	public void testAfficheMax()
 	{
 		//App tableau = new App();
 		int[] tab4 = {5,8,1};
-		assertEquals(1.0, App.afficheMax(tab4));
+		assertEquals(8.0, App.afficheMax(tab4));
 	}
     
 	/*public void testCalculMoyenTabNull() throws IllegalArgumentException{

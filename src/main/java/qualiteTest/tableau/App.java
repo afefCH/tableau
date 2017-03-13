@@ -33,7 +33,7 @@ public class App
 			if(tab[max] < tab[i])
 				max = i;
 		}
-		return max;
+		return tab[max];
 	}
 	
 	public static double afficheMin(int tab[]) throws IllegalArgumentException{
@@ -45,7 +45,7 @@ public class App
 			if(tab[min] > tab[i])
 				min = i;
 		}
-		return min;
+		return tab[min];
 	}
 	
 	public static void main( String[] args )
