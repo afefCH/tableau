@@ -13,7 +13,7 @@ public class AppTest
     /**
      * Create ssfffthe test case
      *
-     * @param testNamffe name of the test case
+     * @param testNamffffe name of the test case
      */
     public AppTest( String testName )
     {
