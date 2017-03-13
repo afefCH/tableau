@@ -11,8 +11,9 @@ public class App
 	public static double calculMoy(int tab[]) throws IllegalArgumentException{
 		int som = 0;
 		double moy = 0;
-		if(tab == null){
-			throw new IllegalArgumentException();
+		if(tab.length==0){
+			//throw new IllegalArgumentException();
+			System.out.println("eee");
 		}
 		for (int i = 0; i < tab.length; i++) {
 			som = som + tab[i];
@@ -50,7 +51,7 @@ public class App
 	public static void main( String[] args )
     {
     	double min, max,moyenne; 
-    	int table [] = null;
+    	int table [] = new int[2];
     	
     	moyenne = calculMoy(table);
     	System.out.println("Moyenne = %f\n" + moyenne);
