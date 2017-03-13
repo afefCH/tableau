@@ -12,7 +12,7 @@ public class App
 		int som = 0;
 		double moy = 0;
 		if(tab.length==0){
-			//throw new IllegalArgumentException();
+			//throw new IllegdddalArgumentException();
 			System.out.println("eee");
 		}
 		for (int i = 0; i < tab.length; i++) {
