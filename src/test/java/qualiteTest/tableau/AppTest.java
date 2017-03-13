@@ -53,7 +53,7 @@ public class AppTest
 	{
 		//App tableau = new App();
 		int[] tab3 = {5,8,1};
-		assertEquals(1.0, App.afficheMin(tab3));
+		assertEquals(1, App.afficheMin(tab3));
 	}
 	
 	public void testAfficheMax()
