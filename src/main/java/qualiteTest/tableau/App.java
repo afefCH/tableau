@@ -42,7 +42,7 @@ public class App
 			throw new IllegalArgumentException();
 		}
 		for (int i = 0; i < tab.length; i++) {
-			if(tab[min] > tab[i])
+			if(tab[min] < tab[i])
 				min = i;
 		}
 		return tab[min];
