@@ -12,8 +12,8 @@ public class App
 		int som = 0;
 		double moy = 0;
 		if(tab.length==0){
-			//throw new IllegdddalArgumentException();
-			System.out.println("eee");
+			throw new IllegalArgumentException();
+			
 		}
 		for (int i = 0; i < tab.length; i++) {
 			som = som + tab[i];

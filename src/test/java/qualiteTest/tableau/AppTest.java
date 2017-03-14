@@ -46,7 +46,7 @@ public class AppTest
 		assertEquals(6.0, App.calculMoy(tab1));
 		
 		int[] tab2 = {5,8, 3};
-		assertEquals(5.0, App.calculMoy(tab2));
+		assertEquals(5, App.calculMoy(tab2));
 	}
     
     public void testAfficheMin()
